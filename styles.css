@@ -1,1 +1,49 @@
 /* your code */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container .r1{
+    border-top-left-radius: 10px;
+}
+.container .r2{
+    border-top-right-radius: 10px;
+}
+.container .row-5 .heading{
+    border-bottom-left-radius: 10px;
+}
+.container .r3{
+    border-bottom-right-radius: 10px;
+}
+.container table{
+    width: 70vw;    
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: left;  
+
+}
+.container th,td{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+}
+.row-1{
+    background-color: rgb(102, 102, 207);
+    color: white;
+}
+.row-2{
+    border: 1px solid rgb(218, 213, 213);
+    background-color: white;
+}
+.row-3{
+    border: 1px solid rgb(218, 213, 213);
+    background-color: gray;
+}
+.row-4{
+    border: 1px solid rgb(218, 213, 213);
+    background-color: white;
+}
+.row-5{
+    background-color: gray;
+}
